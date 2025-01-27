@@ -24,8 +24,8 @@
         lower_layer {
             bindings = <
 &kp LS(TAB)  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6          &kp N7          &kp N8        &kp N9           &kp N0  &kp BSPC
-&kp LCTRL    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &kp ENTER
-&kp LSHFT    &bt BT_CLR    &trans        &trans        &trans        &trans          &trans          &trans          &trans        &trans           &trans  &kp ESC
+&kp LCTRL    &none         &none         &none         &none         &none           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none   &kp ENTER
+&kp LSHFT    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_CLR      &none           &none         &none            &none   &kp ESC
                                          &kp LGUI      &mo 1         &kp SPACE       &kp SPACE       &mo 2           &kp RALT
             >;
         };
@@ -34,7 +34,7 @@
             bindings = <
 &kp LC(TAB)  &kp EXCL   &kp AT     &kp POUND       &kp DOLLAR        &kp PERCENT             &kp CARET              &kp AMPERSAND      &kp STAR         &kp PLUS       &kp EQUAL  &kp BSPC
 &kp LCTRL    &kp GRAVE  &kp TILDE  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp BACKSLASH  &kp PIPE   &kp ENTER
-&kp LSHFT    &trans     &trans     &trans          &kp SQT           &kp MINUS               &kp UNDER              &kp DOUBLE_QUOTES  &trans           &trans         &trans     &kp RIGHT_SHIFT
+&kp LSHFT    &none      &none      &none           &kp SQT           &kp MINUS               &kp UNDER              &kp DOUBLE_QUOTES  &none            &none          &none      &kp RIGHT_SHIFT
                                    &kp LGUI        &mo 1             &kp SPACE               &kp SPACE              &mo 2              &kp RALT
             >;
         };
