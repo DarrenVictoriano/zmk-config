@@ -1,0 +1,91 @@
+layout: {zmk_keyboard: corne}
+layers:
+  default: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '$$mdi:keyboard-return$$',
+    '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', lower, '$$mdi:keyboard-space$$',
+    '$$mdi:keyboard-space$$', raise, '$$mdi:apple-keyboard-option$$']
+  lower:
+  - $$mdi:keyboard-esc$$
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ⌘⇧J
+  - Tab Left
+  - Tab Right
+  - ''
+  - ''
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-control$$
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - ''
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - ''
+  - $$mdi:keyboard-return$$
+  - $$mdi:apple-keyboard-shift$$
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '0'
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - ''
+  - ''
+  - ''
+  - ⌘⇧
+  - $$mdi:apple-keyboard-command$$
+  - {t: lower, type: held}
+  - $$mdi:keyboard-space$$
+  - ⌘⌥⎵
+  - raise
+  - $$mdi:apple-keyboard-option$$
+  raise:
+  - '`'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - +
+  - '='
+  - '-'
+  - $$mdi:apple-keyboard-control$$
+  - ''
+  - '{'
+  - (
+  - '['
+  - ''''
+  - '"'
+  - ']'
+  - )
+  - '}'
+  - \
+  - $$mdi:keyboard-return$$
+  - $$mdi:apple-keyboard-shift$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - _
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - lower
+  - ⌃⎵
+  - $$mdi:keyboard-space$$
+  - {t: raise, type: held}
+  - $$mdi:apple-keyboard-option$$
