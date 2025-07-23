@@ -25,10 +25,10 @@
 
         lower_layer {
             bindings = <
-&kp ESC    &none  &kp N7  &kp N8    &kp N9  &none        &kp LG(LS(J))      &kp LC(LS(TAB))  &kp LC(TAB)  &none      &none  &kp DELETE
-&kp LCTRL  &none  &kp N4  &kp N5    &kp N6  &none        &kp LEFT           &kp DOWN         &kp UP       &kp RIGHT  &none  &kp RET
-&kp LSHFT  &none  &kp N1  &kp N2    &kp N3  &kp N0       &kp C_VOL_DN       &kp C_VOL_UP     &none        &none      &none  &kp LG(LSHFT)
-                          &kp LGUI  &mo 1   &kp SPACE    &kp LG(LA(SPACE))  &mo 2            &kp RALT
+&kp ESC    &none  &kp N7  &kp N8    &kp N9  &kp PAGE_UP      &kp LG(LS(J))      &kp LC(LS(TAB))  &kp LC(TAB)  &none      &none  &kp DELETE
+&kp LCTRL  &none  &kp N4  &kp N5    &kp N6  &kp PAGE_DOWN    &kp LEFT           &kp DOWN         &kp UP       &kp RIGHT  &none  &kp RET
+&kp LSHFT  &none  &kp N1  &kp N2    &kp N3  &kp N0           &kp C_VOL_DN       &kp C_VOL_UP     &none        &none      &none  &kp LG(LSHFT)
+                          &kp LGUI  &mo 1   &kp SPACE        &kp LG(LA(SPACE))  &mo 2            &kp RALT
             >;
         };
 
