@@ -15,8 +15,10 @@ work with the following devices.
 
 ## The Keyboard
 
-> This uses [M165437's nice-view-gem](https://github.com/M165437/nice-view-gem)
-> ![typeractive_kb](https://github.com/DarrenVictoriano/zmk-config/blob/master/images/kb.jpeg)
+![typeractive_kb](https://github.com/DarrenVictoriano/zmk-config/blob/master/images/kb.jpeg)
+
+> Nice!view shield is courtesy of
+> [M165437's nice-view-gem](https://github.com/M165437/nice-view-gem).
 
 ## Keymaps
 
