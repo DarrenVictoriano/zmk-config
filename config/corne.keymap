@@ -40,5 +40,23 @@
                                      &kp LGUI              &mo 1             &kp LC(SPACE)    &kp SPACE          &mo 2              &kp RALT
             >;
         };
+
+        adjust_layer {
+            bindings = <
+&kp ESCAPE      &trans  &kp F7  &kp F8            &kp F9  &trans       &trans     &trans  &trans         &trans  &trans  &kp BACKSPACE
+&kp LCTRL       &trans  &kp F4  &kp F5            &kp F6  &trans       &trans     &trans  &trans         &trans  &trans  &kp ENTER
+&kp LEFT_SHIFT  &trans  &kp F1  &kp F2            &kp F3  &kp F10      &trans     &trans  &trans         &trans  &trans  &kp RIGHT_SHIFT
+                                &kp LEFT_COMMAND  &mo 1   &kp SPACE    &kp SPACE  &mo 2   &kp RIGHT_ALT
+            >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        adjust_layer {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
     };
 };
