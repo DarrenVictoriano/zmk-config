@@ -89,3 +89,46 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: raise, type: held}
   - $$mdi:apple-keyboard-option$$
+  adjust:
+  - ESCAPE
+  - ''
+  - F7
+  - F8
+  - F9
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BACKSPACE
+  - $$mdi:apple-keyboard-control$$
+  - ''
+  - F4
+  - F5
+  - F6
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ENTER
+  - LEFT SHIFT
+  - ''
+  - F1
+  - F2
+  - F3
+  - F10
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RIGHT SHIFT
+  - LEFT COMMAND
+  - {t: lower, type: held}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - {t: raise, type: held}
+  - RIGHT ALT
