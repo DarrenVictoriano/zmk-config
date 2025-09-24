@@ -43,10 +43,10 @@
 
         adjust_layer {
             bindings = <
-&kp ESC         &none  &kp F7  &kp F8            &kp F9  &none        &none      &none  &none          &none  &none  &kp BSPC
-&kp LCTRL       &none  &kp F4  &kp F5            &kp F6  &none        &none      &none  &none          &none  &none  &kp RET
-&kp LSHIFT      &none  &kp F1  &kp F2            &kp F3  &kp F10      &none      &none  &none          &none  &none  &kp RSHIFT
-                               &kp LGUI  &mo 1   &kp SPACE    &kp SPACE  &mo 2  &kp RALT
+&kp ESC     &none  &kp F7  &kp F8    &kp F9  &kp F12      &none      &none  &none     &none  &none  &kp BSPC
+&kp LCTRL   &none  &kp F4  &kp F5    &kp F6  &kp F11      &none      &none  &none     &none  &none  &kp RET
+&kp LSHIFT  &none  &kp F1  &kp F2    &kp F3  &kp F10      &none      &none  &none     &none  &none  &kp RSHIFT
+                           &kp LGUI  &mo 1   &kp SPACE    &kp SPACE  &mo 2  &kp RALT
             >;
         };
     };
