@@ -30,10 +30,10 @@ generated using
 
 **Macros**
 
-- ⚡️ -> hyper key (`ctrl` + `shift` + `alt` + `cmd`)
-- ⚙️ -> system settings (`cmd` + `shift` + `J`)
-- `⌘⌥⎵` -> homerow / hints
-- `⌃⎵` -> tmux leader key
+- ⚡️ : hyper key (`ctrl` + `shift` + `alt` + `cmd`)
+- ⚙️ : system settings (`cmd` + `shift` + `J`)
+- `⌘⌥⎵` : homerow / hints
+- `⌃⎵` : tmux leader key
 
 > The image is generated using
 > [Cem Aksoylar's Keymap-drawer](https://github.com/caksoylar/keymap-drawer)
