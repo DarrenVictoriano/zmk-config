@@ -157,7 +157,7 @@ parse_config:
         "&bt BT_SEL 2": BT 3
         "&bt BT_SEL 3": BT 4
         "&bt BT_SEL 4": BT 5
-        "&kp PRINTSCREEN": $$mdi:panorama-variant-outline$$
+        "&kp PRINTSCREEN": $$mdi:camera$$
         "&msc SCRL_LEFT": $$mdi:pan-left$$
         "&msc SCRL_RIGHT": $$mdi:pan-right$$
         "&msc SCRL_DOWN": $$mdi:pan-down$$
@@ -337,7 +337,7 @@ parse_config:
         "&kp LALT": $$mdi:apple-keyboard-option$$
         "&kp RALT": $$mdi:apple-keyboard-option$$
         "&kp RSHFT": $$mdi:apple-keyboard-shift$$
-        "&kp BSPC": $$mdi:backspace-outline$$
+        "&kp BSPC": $$mdi:backspace$$
     sticky_label: sticky
     toggle_label: toggle
     tap_toggle_label: tap-toggle
@@ -451,12 +451,12 @@ parse_config:
         LC(SPACE): "⌃⎵"
         RC(RS(TAB)): "⌃⇧⇥"
         RC(TAB): "⌃⇥"
-        LG(LS(J)): "⌘⇧J"
+        LG(LS(J)): "mdi:cog"
         LG(LSHFT): "⌘⇧"
         LG(LA(SPACE)): "⌘⌥⎵"
-        LC(LA(F2)): "⌃⌥F2"
         RC(RALT): "⌃⌥"
         RC(RSHFT): "⌃⇧"
+        LC(LA(F2)): $$mdi:console-network$$
 
         LOWER: "⤓"
         RAISE: "⤒"
@@ -480,8 +480,8 @@ parse_config:
         SPACE: $$mdi:keyboard-space$$
         BSPC: $$mdi:backspace$$
         RET: $$mdi:keyboard-return$$
-        DEL: $$mdi:backspace-reverse-outline$$
-        DELETE: $$mdi:backspace-reverse-outline$$
+        DEL: $$mdi:delete$$
+        DELETE: $$mdi:delete$$
         INS: Insert
         HOME: Home
         END: End
