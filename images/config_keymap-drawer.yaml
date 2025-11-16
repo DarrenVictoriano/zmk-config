@@ -141,8 +141,8 @@ parse_config:
         "&inv_qm": ¿
         "&kp LC(LG(LEFT))": Desk Left
         "&kp LC(LG(RIGHT))": Desk Right
-        "&kp LC(TAB)": Tab Right
-        "&kp LC(LS(TAB))": Tab Left
+        "&kp LC(TAB)": $$mdi:page-next-outline$$
+        "&kp LC(LS(TAB))": $$mdi:page-previous-outline$$
         "&kp LA(F4)": Win Close
         "&kp LC(F4)": Tab Close
         "&kp LS(TAB)": Win Prev
@@ -155,6 +155,10 @@ parse_config:
         "&bt BT_SEL 2": BT 3
         "&bt BT_SEL 3": BT 4
         "&bt BT_SEL 4": BT 5
+        "&msc SCRL_LEFT": $$mdi:pan-left$$
+        "&msc SCRL_RIGHT": $$mdi:pan-right$$
+        "&msc SCRL_DOWN": $$mdi:pan-down$$
+        "&msc SCRL_UP": $$mdi:pan-up$$
         DISPLAY_UP:
             t: $$mdi:television-classic$$
             h: $$mdi:arrow-up$$
