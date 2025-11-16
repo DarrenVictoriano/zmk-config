@@ -454,6 +454,12 @@ parse_config:
         LOWER: "⤓"
         RAISE: "⤒"
 
+        # Scroll
+        SCRL_LEFT: $$mid:pan-left$$
+        SCRL_RIGHT: $$mid:pan-right$$
+        SCRL_DOWN: $$mid:pan-down$$
+        SCRL_UP: $$mid:pan-up$$
+
         # Arrows
         UP: $$mdi:arrow-up-bold$$
         DOWN: $$mdi:arrow-down-bold$$
@@ -479,6 +485,8 @@ parse_config:
         # Media
         C_NEXT: $$mdi:skip-next$$
         C_PREV: $$mdi:skip-previous$$
+        C_PAUSE: $$mdi:pause$$
+        C_PLAY: $$mdi:play$$
         C_PP: $$mdi:play-pause$$
 
         # Sound
