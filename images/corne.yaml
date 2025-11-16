@@ -101,7 +101,7 @@ layers:
   - $$mdi:play$$
   - $$mdi:skip-next$$
   - ''
-  - PRINTSCREEN
+  - $$mdi:panorama-variant-outline$$
   - ''
   - ''
   - F4
