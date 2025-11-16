@@ -439,6 +439,7 @@ parse_config:
         RGUI: $$mdi:apple-keyboard-command$$
 
         # combo
+        LC(LS(LA(LGUI))): $$mdi:lightning-bolt$$
         LS(LC(LALT)): $$mdi:triangle$$ # Meh
         LC(SPACE): "⌃⎵"
         RC(RS(TAB)): "⌃⇧⇥"
