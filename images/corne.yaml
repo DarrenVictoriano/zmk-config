@@ -36,8 +36,8 @@ layers:
   - '0'
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - ''
-  - ''
+  - BRI DN
+  - BRI UP
   - ''
   - ⌘⇧
   - $$mdi:apple-keyboard-command$$
@@ -87,5 +87,48 @@ layers:
   - lower
   - ⌃⎵
   - $$mdi:keyboard-space$$
+  - {t: raise, type: held}
+  - $$mdi:apple-keyboard-option$$
+  adjust:
+  - Ctl+Alt+F2
+  - ''
+  - F7
+  - F8
+  - F9
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F4
+  - F5
+  - F6
+  - F11
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctl+$$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - ''
+  - ''
+  - F1
+  - F2
+  - F3
+  - F10
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctl+$$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - {t: lower, type: held}
+  - ''
+  - ''
   - {t: raise, type: held}
   - $$mdi:apple-keyboard-option$$
