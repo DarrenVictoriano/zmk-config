@@ -162,6 +162,8 @@ parse_config:
         "&msc SCRL_RIGHT": $$mdi:pan-right$$
         "&msc SCRL_DOWN": $$mdi:pan-down$$
         "&msc SCRL_UP": $$mdi:pan-up$$
+        "&mo 1": $$mdi:tray-arrow-down$$
+        "&mo 2": $$mdi:tray-arrow-up$$
         DISPLAY_UP:
             t: $$mdi:television-classic$$
             h: $$mdi:arrow-up$$
@@ -451,7 +453,7 @@ parse_config:
         LC(SPACE): "⌃⎵"
         RC(RS(TAB)): "⌃⇧⇥"
         RC(TAB): "⌃⇥"
-        LG(LS(J)): "mdi:cog"
+        LG(LS(J)): $$mdi:cog$$
         LG(LSHFT): "⌘⇧"
         LG(LA(SPACE)): "⌘⌥⎵"
         RC(RALT): "⌃⌥"
