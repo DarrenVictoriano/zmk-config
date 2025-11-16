@@ -1,17 +1,134 @@
 layout: {zmk_keyboard: corne}
 layers:
   default: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '$$mdi:keyboard-return$$',
-    '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', '$$mdi:tray-arrow-down$$', '$$mdi:keyboard-space$$',
-    '$$mdi:keyboard-space$$', '$$mdi:tray-arrow-up$$', '$$mdi:apple-keyboard-option$$']
-  lower: ['$$mdi:keyboard-esc$$', '', '7', '8', '9', '$$mdi:chevron-up-box$$', '$$mdi:cog$$', '$$mdi:chevron-left-box$$', '$$mdi:chevron-right-box$$', '', '', '$$mdi:delete$$',
-    '$$mdi:apple-keyboard-control$$', '', '4', '5', '6', '$$mdi:chevron-down-box$$', '$$mdi:arrow-left-bold$$', '$$mdi:arrow-down-bold$$', '$$mdi:arrow-up-bold$$',
-    '$$mdi:arrow-right-bold$$', '', '$$mdi:keyboard-return$$', '$$mdi:apple-keyboard-shift$$', '$$mdi:lightning-bolt$$', '1', '2', '3', '0', '$$mdi:volume-low$$',
-    '$$mdi:volume-high$$', '$$mdi:brightness-3$$', '$$mdi:brightness-7$$', '$$mdi:lightning-bolt$$', ⌘⇧, '$$mdi:apple-keyboard-command$$', '$$mdi:tray-arrow-down$$',
-    '$$mdi:keyboard-space$$', ⌘⌥⎵, '$$mdi:tray-arrow-up$$', '$$mdi:apple-keyboard-option$$']
-  raise: ['`', '!', '@', '#', $, '%', ^, '&', '*', +, '=', '-', '$$mdi:apple-keyboard-control$$', '', '{', (, '[', '''', '"', ']', ), '}', \, '$$mdi:keyboard-return$$',
-    '$$mdi:apple-keyboard-shift$$', '$$mdi:lightning-bolt$$', '', '', '', '', _, '', '', '', '$$mdi:lightning-bolt$$', '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$',
-    '$$mdi:tray-arrow-down$$', ⌃⎵, '$$mdi:keyboard-space$$', '$$mdi:tray-arrow-up$$', '$$mdi:apple-keyboard-option$$']
-  adjust: ['$$mdi:console-network$$', '', F7, F8, F9, F12, '$$mdi:play-pause$$', '$$mdi:skip-previous$$', '$$mdi:skip-next$$', '', '', '$$mdi:camera$$', '', '', F4,
-    F5, F6, F11, '$$mdi:pan-left$$', '$$mdi:pan-down$$', '$$mdi:pan-up$$', '$$mdi:pan-right$$', ⌃⌥, '$$mdi:apple-keyboard-control$$', '', '$$mdi:lightning-bolt$$',
-    F1, F2, F3, F10, '$$mdi:rewind$$', '$$mdi:fast-forward$$', '', '', '$$mdi:lightning-bolt$$', ⌃⇧, '$$mdi:apple-keyboard-command$$', '$$mdi:tray-arrow-down$$',
-    '', '', '$$mdi:tray-arrow-up$$', '$$mdi:apple-keyboard-option$$']
+    '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', lower, '$$mdi:keyboard-space$$',
+    '$$mdi:keyboard-space$$', raise, '$$mdi:apple-keyboard-option$$']
+  lower:
+  - $$mdi:keyboard-esc$$
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - $$mdi:chevron-up-box$$
+  - $$mdi:cog$$
+  - $$mdi:chevron-left-box$$
+  - $$mdi:chevron-right-box$$
+  - ''
+  - ''
+  - $$mdi:delete$$
+  - $$mdi:apple-keyboard-control$$
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - $$mdi:chevron-down-box$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - ''
+  - $$mdi:keyboard-return$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:lightning-bolt$$
+  - '1'
+  - '2'
+  - '3'
+  - '0'
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:brightness-3$$
+  - $$mdi:brightness-7$$
+  - $$mdi:lightning-bolt$$
+  - ⌘⇧
+  - $$mdi:apple-keyboard-command$$
+  - {t: lower, type: held}
+  - $$mdi:keyboard-space$$
+  - ⌘⌥⎵
+  - raise
+  - $$mdi:apple-keyboard-option$$
+  raise:
+  - '`'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - +
+  - '='
+  - '-'
+  - $$mdi:apple-keyboard-control$$
+  - ''
+  - '{'
+  - (
+  - '['
+  - ''''
+  - '"'
+  - ']'
+  - )
+  - '}'
+  - \
+  - $$mdi:keyboard-return$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:lightning-bolt$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - _
+  - ''
+  - ''
+  - ''
+  - $$mdi:lightning-bolt$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - lower
+  - ⌃⎵
+  - $$mdi:keyboard-space$$
+  - {t: raise, type: held}
+  - $$mdi:apple-keyboard-option$$
+  adjust:
+  - $$mdi:console-network$$
+  - ''
+  - F7
+  - F8
+  - F9
+  - F12
+  - $$mdi:play-pause$$
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
+  - ''
+  - ''
+  - $$mdi:camera$$
+  - ''
+  - ''
+  - F4
+  - F5
+  - F6
+  - F11
+  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
+  - $$mdi:pan-right$$
+  - ⌃⌥
+  - $$mdi:apple-keyboard-control$$
+  - ''
+  - $$mdi:lightning-bolt$$
+  - F1
+  - F2
+  - F3
+  - F10
+  - $$mdi:rewind$$
+  - $$mdi:fast-forward$$
+  - ''
+  - ''
+  - $$mdi:lightning-bolt$$
+  - ⌃⇧
+  - $$mdi:apple-keyboard-command$$
+  - {t: lower, type: held}
+  - ''
+  - ''
+  - {t: raise, type: held}
+  - $$mdi:apple-keyboard-option$$
