@@ -162,8 +162,6 @@ parse_config:
         "&msc SCRL_RIGHT": $$mdi:pan-right$$
         "&msc SCRL_DOWN": $$mdi:pan-down$$
         "&msc SCRL_UP": $$mdi:pan-up$$
-        "&mo 1": $$mdi:tray-arrow-down$$
-        "&mo 2": $$mdi:tray-arrow-up$$
         DISPLAY_UP:
             t: $$mdi:television-classic$$
             h: $$mdi:arrow-up$$
