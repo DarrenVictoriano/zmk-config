@@ -18,10 +18,10 @@
 
         default_layer {
             bindings = <
-&kp TAB    &kp Q                   &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P                      &kp BSPC
-&kp LCTRL  &kp A                   &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI                   &kp RET
-&kp LSHFT  &mt LC(LS(LA(LGUI))) Z  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &mt LC(LS(LA(LGUI))) FSLH  &kp RSHFT
-                                          &kp LGUI  &mo 1  &kp SPACE    &kp SPACE  &mo 2  &kp RALT
+&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp RET
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                         &kp LGUI  &mo 1  &kp SPACE    &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
@@ -45,9 +45,9 @@
 
         adjust_layer {
             bindings = <
-&kp LC(LA(F2))  &none                 &kp F7  &kp F8    &kp F9  &kp F12    &kp C_PREV      &kp C_PAUSE     &kp C_PLAY    &kp C_NEXT       &none                 &kp PRINTSCREEN
+&kp LC(LA(F2))  &none                 &kp F7  &kp F8    &kp F9  &kp F12    &kp C_PP        &kp C_PREV      &kp C_NEXT    &none            &none                 &kp PRINTSCREEN
 &none           &none                 &kp F4  &kp F5    &kp F6  &kp F11    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp RC(RALT)          &kp RCTRL
-&none           &kp LC(LS(LA(LGUI)))  &kp F1  &kp F2    &kp F3  &kp F10    &none           &none           &none         &none            &kp LC(LS(LA(LGUI)))  &kp RC(RSHFT)
+&none           &kp LC(LS(LA(LGUI)))  &kp F1  &kp F2    &kp F3  &kp F10    &kp C_RW        &kp C_FF        &none         &none            &kp LC(LS(LA(LGUI)))  &kp RC(RSHFT)
                                               &kp LGUI  &mo 1   &none      &none           &mo 2           &kp RALT
             >;
         };
