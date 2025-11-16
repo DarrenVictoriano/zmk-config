@@ -36,6 +36,18 @@
 <svg id="mdi:brightness-7">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-brightness-7" viewBox="0 0 24 24"><path d="M12,8A4,4 0 0,0 8,12A4,4 0 0,0 12,16A4,4 0 0,0 16,12A4,4 0 0,0 12,8M12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z" /></svg>
 </svg>
+<svg id="mdi:chevron-down-box">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-down-box" viewBox="0 0 24 24"><path d="M19,3H5A2,2 0 0,0 3,5V19C3,20.11 3.9,21 5,21H19C20.11,21 21,20.11 21,19V5A2,2 0 0,0 19,3M12,15.71L6,9.71L7.41,8.29L12,12.88L16.59,8.29L18,9.71L12,15.71Z" /></svg>
+</svg>
+<svg id="mdi:chevron-left-box">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-left-box" viewBox="0 0 24 24"><path d="M19,3H5A2,2 0 0,0 3,5V19C3,20.11 3.9,21 5,21H19C20.11,21 21,20.11 21,19V5A2,2 0 0,0 19,3M15.71,16.59L14.29,18L8.29,12L14.29,6L15.71,7.41L11.12,12L15.71,16.59Z" /></svg>
+</svg>
+<svg id="mdi:chevron-right-box">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-right-box" viewBox="0 0 24 24"><path d="M19,3H5A2,2 0 0,0 3,5V19C3,20.11 3.9,21 5,21H19C20.11,21 21,20.11 21,19V5A2,2 0 0,0 19,3M9.71,18L8.29,16.59L12.88,12L8.29,7.41L9.71,6L15.71,12L9.71,18Z" /></svg>
+</svg>
+<svg id="mdi:chevron-up-box">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-up-box" viewBox="0 0 24 24"><path d="M19,3H5A2,2 0 0,0 3,5V19C3,20.11 3.9,21 5,21H19C20.11,21 21,20.11 21,19V5A2,2 0 0,0 19,3M16.59,15.71L12,11.12L7.41,15.71L6,14.29L12,8.29L18,14.29L16.59,15.71Z" /></svg>
+</svg>
 <svg id="mdi:keyboard-esc">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-esc" viewBox="0 0 24 24"><path d="M1 7H7V9H3V11H7V13H3V15H7V17H1V7M11 7H15V9H11V11H13C14.11 11 15 11.9 15 13V15C15 16.11 14.11 17 13 17H9V15H13V13H11C9.9 13 9 12.11 9 11V9C9 7.9 9.9 7 11 7M19 7H21C22.11 7 23 7.9 23 9V10H21V9H19V15H21V14H23V15C23 16.11 22.11 17 21 17H19C17.9 17 17 16.11 17 15V9C17 7.9 17.9 7 19 7Z" /></svg>
 </svg>
@@ -50,12 +62,6 @@
 </svg>
 <svg id="mdi:lightning-bolt">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-lightning-bolt" viewBox="0 0 24 24"><path d="M11 15H6L13 1V9H18L11 23V15Z" /></svg>
-</svg>
-<svg id="mdi:page-next-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-page-next-outline" viewBox="0 0 24 24"><path d="M22,3H5A2,2 0 0,0 3,5V9H5V5H22V19H5V15H3V19A2,2 0 0,0 5,21H22A2,2 0 0,0 24,19V5A2,2 0 0,0 22,3M7,15V13H0V11H7V9L11,12L7,15M20,13H13V11H20V13M20,9H13V7H20V9M17,17H13V15H17V17Z" /></svg>
-</svg>
-<svg id="mdi:page-previous-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-page-previous-outline" viewBox="0 0 24 24"><path d="M2,3H19A2,2 0 0,1 21,5V9H19V5H2V19H19V15H21V19A2,2 0 0,1 19,21H2A2,2 0 0,1 0,19V5A2,2 0 0,1 2,3M17,15V13H24V11H17V9L13,12L17,15M4,13H11V11H4V13M4,9H11V7H4V9M4,17H8V15H4V17Z" /></svg>
 </svg>
 <svg id="mdi:pan-down">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-pan-down" viewBox="0 0 24 24"><path d="M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M8,17L12,21.5L16,17H8Z" /></svg>
@@ -515,9 +521,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(308, 42)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">PAGE</tspan><tspan x="0" dy="1.2em">UP</tspan>
-</text>
+<use href="#mdi:chevron-up-box" xlink:href="#mdi:chevron-up-box" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:chevron-up-box"/>
 </g>
 <g transform="translate(532, 42)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -525,11 +529,11 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(588, 35)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:page-previous-outline" xlink:href="#mdi:page-previous-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:page-previous-outline"/>
+<use href="#mdi:chevron-left-box" xlink:href="#mdi:chevron-left-box" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:chevron-left-box"/>
 </g>
 <g transform="translate(644, 28)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:page-next-outline" xlink:href="#mdi:page-next-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:page-next-outline"/>
+<use href="#mdi:chevron-right-box" xlink:href="#mdi:chevron-right-box" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:chevron-right-box"/>
 </g>
 <g transform="translate(700, 35)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -562,9 +566,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(308, 98)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">PAGE</tspan><tspan x="0" dy="1.2em">DOWN</tspan>
-</text>
+<use href="#mdi:chevron-down-box" xlink:href="#mdi:chevron-down-box" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:chevron-down-box"/>
 </g>
 <g transform="translate(532, 98)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

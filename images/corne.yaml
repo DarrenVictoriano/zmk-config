@@ -9,10 +9,10 @@ layers:
   - '7'
   - '8'
   - '9'
-  - PAGE UP
+  - $$mdi:chevron-up-box$$
   - ⌘⇧J
-  - $$mdi:page-previous-outline$$
-  - $$mdi:page-next-outline$$
+  - $$mdi:chevron-left-box$$
+  - $$mdi:chevron-right-box$$
   - ''
   - ''
   - $$mdi:backspace-reverse-outline$$
@@ -21,7 +21,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - PAGE DOWN
+  - $$mdi:chevron-down-box$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
