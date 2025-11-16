@@ -32,6 +32,8 @@ generated using
 
 - ⚡️ : hyper key (`ctrl` + `shift` + `alt` + `cmd`)
 - ⚙️ : system settings (`cmd` + `shift` + `J`)
+- 📷 : `printscreen` (linux) / `F13` (macos)
+- 🖥️ : TTY for linux (`ctrl` + `cmd` + `F2`)
 - `⌘⌥⎵` : homerow / hints
 - `⌃⎵` : tmux leader key
 
