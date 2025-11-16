@@ -162,6 +162,8 @@ parse_config:
         "&msc SCRL_RIGHT": $$mdi:pan-right$$
         "&msc SCRL_DOWN": $$mdi:pan-down$$
         "&msc SCRL_UP": $$mdi:pan-up$$
+        "&mt LC(LS(LA(LGUI))) Z": Z | $$mdi:lightning-bolt$$
+        "&mt LC(LS(LA(LGUI))) FSLH": / | $$mdi:lightning-bolt$$
         DISPLAY_UP:
             t: $$mdi:television-classic$$
             h: $$mdi:arrow-up$$

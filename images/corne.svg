@@ -427,7 +427,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(84, 161)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Z</text>
+<use href="#mdi:lightning-bolt" xlink:href="#mdi:lightning-bolt" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lightning-bolt"/>
 </g>
 <g transform="translate(140, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -463,7 +463,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(756, 161)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">/</text>
+<use href="#mdi:lightning-bolt" xlink:href="#mdi:lightning-bolt" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lightning-bolt"/>
 </g>
 <g transform="translate(812, 161)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
