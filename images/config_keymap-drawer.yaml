@@ -141,13 +141,15 @@ parse_config:
         "&inv_qm": ¿
         "&kp LC(LG(LEFT))": Desk Left
         "&kp LC(LG(RIGHT))": Desk Right
-        "&kp LC(TAB)": $$mdi:page-next-outline$$
-        "&kp LC(LS(TAB))": $$mdi:page-previous-outline$$
+        "&kp LC(TAB)": $$mdi:chevron-right-box$$
+        "&kp LC(LS(TAB))": $$mdi:chevron-left-box$$
         "&kp LA(F4)": Win Close
         "&kp LC(F4)": Tab Close
         "&kp LS(TAB)": Win Prev
         "&kp LS(INS)": Paste
         "&kp LG(L)": Lock
+        "&kp PAGE_UP": $$mdi:chevron-up-box$$
+        "&kp PAGE_DOWN": $$mdi:chevron-down-box$$
         "&out OUT_USB": Out USB
         "&out OUT_BLE": Out BLE
         "&bt BT_SEL 0": BT 1
