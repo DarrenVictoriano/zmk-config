@@ -28,7 +28,7 @@ generated using
 
 ![keymaps](https://github.com/DarrenVictoriano/zmk-config/blob/master/images/corne.svg)
 
-### Legends
+**Macros**
 
 - ⚡️ -> hyper key (`ctrl` + `shift` + `alt` + `cmd`)
 - ⚙️ -> system settings (`cmd` + `shift` + `J`)
