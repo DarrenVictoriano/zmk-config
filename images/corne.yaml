@@ -96,10 +96,10 @@ layers:
   - F8
   - F9
   - F12
+  - $$mdi:play-pause$$
   - $$mdi:skip-previous$$
-  - $$mdi:pause$$
-  - $$mdi:play$$
   - $$mdi:skip-next$$
+  - ''
   - ''
   - $$mdi:panorama-variant-outline$$
   - ''
@@ -120,8 +120,8 @@ layers:
   - F2
   - F3
   - F10
-  - ''
-  - ''
+  - $$mdi:rewind$$
+  - $$mdi:fast-forward$$
   - ''
   - ''
   - $$mdi:lightning-bolt$$

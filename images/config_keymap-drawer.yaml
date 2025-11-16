@@ -490,6 +490,8 @@ parse_config:
         PAUSE_BREAK: Pause Break
 
         # Media
+        C_RW: $$mdi:rewind$$
+        C_FF: $$mdi:fast-forward$$
         C_NEXT: $$mdi:skip-next$$
         C_PREV: $$mdi:skip-previous$$
         C_PAUSE: $$mdi:pause$$
