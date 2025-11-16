@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define LOWER   1
 #define RAISE   2
@@ -43,10 +44,10 @@
 
         adjust_layer {
             bindings = <
-&kp LC(LA(F2))  &none                 &kp F7  &kp F8    &kp F9  &kp F12    &none  &none  &none     &none  &none                 &none
-&none           &none                 &kp F4  &kp F5    &kp F6  &kp F11    &none  &none  &none     &none  &kp RC(RALT)          &kp RCTRL
-&none           &kp LC(LS(LA(LGUI)))  &kp F1  &kp F2    &kp F3  &kp F10    &none  &none  &none     &none  &kp LC(LS(LA(LGUI)))  &kp RC(RSHFT)
-                                              &kp LGUI  &mo 1   &none      &none  &mo 2  &kp RALT
+&kp LC(LA(F2))  &none                 &kp F7  &kp F8    &kp F9  &kp F12    &kp C_PREV      &kp C_PAUSE     &kp C_PLAY    &kp C_NEXT       &none                 &kp PRINTSCREEN
+&none           &none                 &kp F4  &kp F5    &kp F6  &kp F11    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp RC(RALT)          &kp RCTRL
+&none           &kp LC(LS(LA(LGUI)))  &kp F1  &kp F2    &kp F3  &kp F10    &none           &none           &none         &none            &kp LC(LS(LA(LGUI)))  &kp RC(RSHFT)
+                                              &kp LGUI  &mo 1   &none      &none           &mo 2           &kp RALT
             >;
         };
     };
