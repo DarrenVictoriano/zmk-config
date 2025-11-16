@@ -455,10 +455,10 @@ parse_config:
         RAISE: "⤒"
 
         # Scroll
-        SCRL_LEFT: $$mid:pan-left$$
-        SCRL_RIGHT: $$mid:pan-right$$
-        SCRL_DOWN: $$mid:pan-down$$
-        SCRL_UP: $$mid:pan-up$$
+        SCRL_LEFT: $$mdi:pan-left$$
+        SCRL_RIGHT: $$mdi:pan-right$$
+        SCRL_DOWN: $$mdi:pan-down$$
+        SCRL_UP: $$mdi:pan-up$$
 
         # Arrows
         UP: $$mdi:arrow-up-bold$$
