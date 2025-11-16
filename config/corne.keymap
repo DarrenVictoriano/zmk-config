@@ -25,9 +25,9 @@
 
         lower_layer {
             bindings = <
-&kp ESC    &none  &kp N7  &kp N8    &kp N9  &kp PAGE_UP      &kp LG(LS(J))      &kp LC(LS(TAB))  &kp LC(TAB)  &none      &none  &kp DELETE
-&kp LCTRL  &none  &kp N4  &kp N5    &kp N6  &kp PAGE_DOWN    &kp LEFT           &kp DOWN         &kp UP       &kp RIGHT  &none  &kp RET
-&kp LSHFT  &none  &kp N1  &kp N2    &kp N3  &kp N0           &kp C_VOL_DN       &kp C_VOL_UP     &none        &none      &none  &kp LG(LSHFT)
+&kp ESC    &none  &kp N7  &kp N8    &kp N9  &kp PAGE_UP      &kp LG(LS(J))      &kp LC(LS(TAB))  &kp LC(TAB)   &none         &none  &kp DELETE
+&kp LCTRL  &none  &kp N4  &kp N5    &kp N6  &kp PAGE_DOWN    &kp LEFT           &kp DOWN         &kp UP        &kp RIGHT     &none  &kp RET
+&kp LSHFT  &none  &kp N1  &kp N2    &kp N3  &kp N0           &kp C_VOL_DN       &kp C_VOL_UP     &kp C_BRI_DN  &kp C_BRI_UP  &none  &kp LG(LSHFT)
                           &kp LGUI  &mo 1   &kp SPACE        &kp LG(LA(SPACE))  &mo 2            &kp RALT
             >;
         };
@@ -39,6 +39,24 @@
 &kp LSHFT  &none     &none           &none                 &none             &none            &kp UNDER          &none              &none                  &none            &none          &kp RSHFT
                                      &kp LGUI              &mo 1             &kp LC(SPACE)    &kp SPACE          &mo 2              &kp RALT
             >;
+        };
+
+        adjust_layer {
+            bindings = <
+&kp LC(LA(F2))  &none  &kp F7  &kp F8    &kp F9  &kp F12    &none  &none  &none     &none  &none         &none
+&none           &none  &kp F4  &kp F5    &kp F6  &kp F11    &none  &none  &none     &none  &kp RC(RALT)  &kp RCTRL
+&none           &none  &kp F1  &kp F2    &kp F3  &kp F10    &none  &none  &none     &none  &none         &kp RC(RSHFT)
+                               &kp LGUI  &mo 1   &none      &none  &mo 2  &kp RALT
+            >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        adjust_condition {
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
