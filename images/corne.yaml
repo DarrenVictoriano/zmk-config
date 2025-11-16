@@ -11,8 +11,8 @@ layers:
   - '9'
   - PAGE UP
   - ⌘⇧J
-  - Tab Left
-  - Tab Right
+  - $$mdi:page-previous-outline$$
+  - $$mdi:page-next-outline$$
   - ''
   - ''
   - $$mdi:backspace-reverse-outline$$
@@ -108,10 +108,10 @@ layers:
   - F5
   - F6
   - F11
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_RIGHT'
+  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
+  - $$mdi:pan-right$$
   - ⌃⌥
   - $$mdi:apple-keyboard-control$$
   - ''
