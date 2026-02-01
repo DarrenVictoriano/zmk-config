@@ -27,7 +27,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - ''
-  - $$mdi:keyboard-return$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:lightning-bolt$$
   - '1'
@@ -36,8 +36,8 @@ layers:
   - '0'
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - $$mdi:brightness-3$$
-  - $$mdi:brightness-7$$
+  - ''
+  - ''
   - $$mdi:lightning-bolt$$
   - ⌘⇧
   - $$mdi:apple-keyboard-command$$
@@ -70,7 +70,7 @@ layers:
   - )
   - '}'
   - \
-  - $$mdi:keyboard-return$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:lightning-bolt$$
   - ''
@@ -90,7 +90,7 @@ layers:
   - {t: raise, type: held}
   - $$mdi:apple-keyboard-option$$
   adjust:
-  - $$mdi:console-network$$
+  - $$mdi:keyboard-esc$$
   - ''
   - F7
   - F8
