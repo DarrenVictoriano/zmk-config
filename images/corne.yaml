@@ -90,7 +90,7 @@ layers:
   - {t: raise, type: held}
   - $$mdi:apple-keyboard-option$$
   adjust:
-  - Ctl+Sft+$$mdi:keyboard-esc$$
+  - $$mdi:mdi-star-four-points-small$$ $$mdi:keyboard-esc$$
   - ''
   - F7
   - F8
@@ -125,7 +125,7 @@ layers:
   - '&mkp MCLK'
   - ''
   - $$mdi:lightning-bolt$$
-  - RIGHT SHIFT
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - {t: lower, type: held}
   - ''
