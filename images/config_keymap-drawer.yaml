@@ -445,7 +445,7 @@ parse_config:
         RCMD: $$mdi:apple-keyboard-command$$
         RGUI: $$mdi:apple-keyboard-command$$
 
-        # combo
+        # Macros
         LC(LS(LA(LGUI))): $$mdi:lightning-bolt$$
         LS(LC(LALT)): $$mdi:triangle$$ # Meh
         LC(SPACE): "⌃⎵"
@@ -457,6 +457,7 @@ parse_config:
         RC(RALT): "⌃⌥"
         RC(RSHFT): "⌃⇧"
         LC(LA(F2)): $$mdi:console-network$$
+        LC(LS(ESC)): "$$mdi:mdi-star-four-points-small$$ $$mdi:keyboard-esc$$"
 
         LOWER: "⤓"
         RAISE: "⤒"
@@ -466,6 +467,13 @@ parse_config:
         SCRL_RIGHT: $$mdi:pan-right$$
         SCRL_DOWN: $$mdi:pan-down$$
         SCRL_UP: $$mdi:pan-up$$
+        LCLK: $$mdi:mdi-mouse-left-click$$
+        RCLK: $$mdi:mdi-mouse-right-click$$
+        MCLK: $$mdi:mdi-mouse-scroll-wheel$$
+        MOVE_UP: $$mdi:mdi-arrow-up-drop-circle$$
+        MOVE_DOWN: $$mdi:mdi-arrow-down-drop-circle$$
+        MOVE_LEFT: $$mdi:mdi-arrow-left-drop-circle$$
+        MOVE_RIGHT: $$mdi:mdi-arrow-right-drop-circle$$
 
         # Arrows
         UP: $$mdi:arrow-up-bold$$
