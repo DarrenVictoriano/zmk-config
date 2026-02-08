@@ -90,7 +90,7 @@ layers:
   - {t: raise, type: held}
   - $$mdi:apple-keyboard-option$$
   adjust:
-  - $$mdi:mdi-star-four-points-small$$ $$mdi:keyboard-esc$$
+  - $$mdi:star-four-points-small$$mdi:keyboard-esc$$
   - ''
   - F7
   - F8
