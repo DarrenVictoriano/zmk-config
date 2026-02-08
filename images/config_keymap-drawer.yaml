@@ -457,7 +457,7 @@ parse_config:
         RC(RALT): "⌃⌥"
         RC(RSHFT): "⌃⇧"
         LC(LA(F2)): $$mdi:console-network$$
-        LC(LS(ESC)): "$$mdi:star-four-points-small$$mdi:keyboard-esc$$"
+        LC(LS(ESC)): "✦⎋"
 
         LOWER: "⤓"
         RAISE: "⤒"
