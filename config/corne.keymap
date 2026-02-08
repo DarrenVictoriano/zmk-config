@@ -45,8 +45,8 @@
 
         adjust_layer {
             bindings = <
-&kp LC(LS(ESC))  &none  &kp F7  &kp F8    &kp F9  &kp F12    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none                 &kp PRINTSCREEN
-&none            &none  &kp F4  &kp F5    &kp F6  &kp F11    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none                 &kp RCTRL
+&kp LC(LS(ESC))  &none  &kp F7  &kp F8    &kp F9  &kp F12    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none                 &kp PRINTSCREEN
+&none            &none  &kp F4  &kp F5    &kp F6  &kp F11    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none                 &kp RCTRL
 &none            &none  &kp F1  &kp F2    &kp F3  &kp F10    &mkp LCLK       &mkp RCLK       &mkp MCLK     &none            &kp LC(LS(LA(LGUI)))  &kp RSHFT
                                 &kp LGUI  &mo 1   &none      &none           &mo 2           &kp RALT
             >;

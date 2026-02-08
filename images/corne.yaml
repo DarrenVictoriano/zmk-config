@@ -96,10 +96,10 @@ layers:
   - F8
   - F9
   - F12
-  - $$mdi:arrow-left-drop-circle$$
-  - $$mdi:arrow-down-drop-circle$$
-  - $$mdi:arrow-up-drop-circle$$
-  - $$mdi:arrow-right-drop-circle$$
+  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
+  - $$mdi:pan-right$$
   - ''
   - $$mdi:camera$$
   - ''
@@ -108,10 +108,10 @@ layers:
   - F5
   - F6
   - F11
-  - $$mdi:pan-left$$
-  - $$mdi:pan-down$$
-  - $$mdi:pan-up$$
-  - $$mdi:pan-right$$
+  - $$mdi:arrow-left-drop-circle$$
+  - $$mdi:arrow-down-drop-circle$$
+  - $$mdi:arrow-up-drop-circle$$
+  - $$mdi:arrow-right-drop-circle$$
   - ''
   - $$mdi:apple-keyboard-control$$
   - ''

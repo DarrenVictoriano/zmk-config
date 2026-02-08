@@ -866,19 +866,19 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(532, 42)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-left-drop-circle" xlink:href="#mdi:arrow-left-drop-circle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-left-drop-circle"/>
+<use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:pan-left"/>
 </g>
 <g transform="translate(588, 35)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-down-drop-circle" xlink:href="#mdi:arrow-down-drop-circle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-down-drop-circle"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:pan-down"/>
 </g>
 <g transform="translate(644, 28)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-up-drop-circle" xlink:href="#mdi:arrow-up-drop-circle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-up-drop-circle"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:pan-up"/>
 </g>
 <g transform="translate(700, 35)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-right-drop-circle" xlink:href="#mdi:arrow-right-drop-circle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-right-drop-circle"/>
+<use href="#mdi:pan-right" xlink:href="#mdi:pan-right" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:pan-right"/>
 </g>
 <g transform="translate(756, 49)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -911,19 +911,19 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(532, 98)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:pan-left"/>
+<use href="#mdi:arrow-left-drop-circle" xlink:href="#mdi:arrow-left-drop-circle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-left-drop-circle"/>
 </g>
 <g transform="translate(588, 91)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:pan-down"/>
+<use href="#mdi:arrow-down-drop-circle" xlink:href="#mdi:arrow-down-drop-circle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-down-drop-circle"/>
 </g>
 <g transform="translate(644, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:pan-up"/>
+<use href="#mdi:arrow-up-drop-circle" xlink:href="#mdi:arrow-up-drop-circle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-up-drop-circle"/>
 </g>
 <g transform="translate(700, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:pan-right" xlink:href="#mdi:pan-right" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:pan-right"/>
+<use href="#mdi:arrow-right-drop-circle" xlink:href="#mdi:arrow-right-drop-circle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-right-drop-circle"/>
 </g>
 <g transform="translate(756, 105)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
