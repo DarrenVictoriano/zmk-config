@@ -162,6 +162,14 @@ parse_config:
         "&msc SCRL_RIGHT": $$mdi:pan-right$$
         "&msc SCRL_DOWN": $$mdi:pan-down$$
         "&msc SCRL_UP": $$mdi:pan-up$$
+        "&mkp LCLK": $$mdi:mouse-left-click$$
+        "&mkp RCLK": $$mdi:mouse-right-click$$
+        "&mkp MCLK": $$mdi:mouse-scroll-wheel$$
+        "&mmv MOVE_UP": $$mdi:arrow-up-drop-circle$$
+        "&mmv MOVE_DOWN": $$mdi:arrow-down-drop-circle$$
+        "&mmv MOVE_LEFT": $$mdi:arrow-left-drop-circle$$
+        "&mmv MOVE_RIGHT": $$mdi:arrow-right-drop-circle$$
+
         DISPLAY_UP:
             t: $$mdi:television-classic$$
             h: $$mdi:arrow-up$$
@@ -182,7 +190,7 @@ parse_config:
             t: $$mdi:television-classic$$
             h: $$mdi:keyboard-space$$
             type: tap_dance
-        "&rgb_ug RGB_TOG":
+        k"&rgb_ug RGB_TOG"k:
             t: $$mdi:led-on$$
             h: $$mdi:toggle-switch$$
             s: $$mdi:led-outline$$
