@@ -33,9 +33,11 @@ generated using
 - ⚡️ : hyper key (`ctrl` + `shift` + `alt` + `cmd`)
 - ⚙️ : system settings (`cmd` + `shift` + `J`)
 - 📷 : `printscreen` (linux) / `F13` (macos)
-- 🖥️ : TTY for linux (`ctrl` + `cmd` + `F2`)
-- `⌘⌥⎵` : homerow / hints
+- `⌘⌥⎵` : homerow
 - `⌃⎵` : tmux leader key
+- `✦⎋`: `ctrl` + `shift` + `esc`
+- adjust layer circle arrows: mouse movements
+- adjust layer pan-arrows: scroll movements
 
 > The image is generated using
 > [Cem Aksoylar's Keymap-drawer](https://github.com/caksoylar/keymap-drawer)
