@@ -96,10 +96,10 @@ layers:
   - F8
   - F9
   - F12
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_RIGHT'
+  - $$mdi:arrow-left-drop-circle$$
+  - $$mdi:arrow-down-drop-circle$$
+  - $$mdi:arrow-up-drop-circle$$
+  - $$mdi:arrow-right-drop-circle$$
   - ''
   - $$mdi:camera$$
   - ''
@@ -120,9 +120,9 @@ layers:
   - F2
   - F3
   - F10
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp MCLK'
+  - $$mdi:mouse-left-click$$
+  - $$mdi:mouse-right-click$$
+  - $$mdi:mouse-scroll-wheel$$
   - ''
   - $$mdi:lightning-bolt$$
   - $$mdi:apple-keyboard-shift$$
