@@ -169,6 +169,8 @@ parse_config:
         "&mmv MOVE_DOWN": $$mdi:arrow-down-drop-circle$$
         "&mmv MOVE_LEFT": $$mdi:arrow-left-drop-circle$$
         "&mmv MOVE_RIGHT": $$mdi:arrow-right-drop-circle$$
+        "&mo 1": "⤓"
+        "&mo 2": "⤒"
 
         DISPLAY_UP:
             t: $$mdi:television-classic$$
