@@ -90,15 +90,15 @@ layers:
   - {t: raise, type: held}
   - $$mdi:apple-keyboard-option$$
   adjust:
-  - $$mdi:keyboard-esc$$
+  - Ctl+Sft+$$mdi:keyboard-esc$$
   - ''
   - F7
   - F8
   - F9
   - F12
-  - $$mdi:play-pause$$
-  - $$mdi:skip-previous$$
-  - $$mdi:skip-next$$
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - $$mdi:camera$$
@@ -112,20 +112,20 @@ layers:
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
   - $$mdi:pan-right$$
-  - ⌃⌥
+  - ''
   - $$mdi:apple-keyboard-control$$
   - ''
-  - $$mdi:lightning-bolt$$
+  - ''
   - F1
   - F2
   - F3
   - F10
-  - $$mdi:rewind$$
-  - $$mdi:fast-forward$$
+  - ''
+  - ''
   - ''
   - ''
   - $$mdi:lightning-bolt$$
-  - ⌃⇧
+  - RIGHT SHIFT
   - $$mdi:apple-keyboard-command$$
   - {t: lower, type: held}
   - ''
