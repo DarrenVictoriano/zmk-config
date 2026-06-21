@@ -102,8 +102,8 @@ layers:
   - $$mdi:pan-right$$
   - ''
   - $$mdi:camera$$
-  - ''
-  - ''
+  - $$mdi:mouse-right-click$$
+  - $$mdi:mouse-left-click$$
   - F4
   - F5
   - F6
@@ -115,14 +115,14 @@ layers:
   - ''
   - $$mdi:apple-keyboard-control$$
   - ''
-  - ''
+  - $$mdi:mouse-scroll-wheel$$
   - F1
   - F2
   - F3
   - F10
-  - $$mdi:mouse-left-click$$
-  - $$mdi:mouse-right-click$$
-  - $$mdi:mouse-scroll-wheel$$
+  - ''
+  - ''
+  - ''
   - ''
   - $$mdi:lightning-bolt$$
   - $$mdi:apple-keyboard-shift$$
