@@ -60,7 +60,7 @@ layers:
   - '='
   - '-'
   - $$mdi:apple-keyboard-control$$
-  - ''
+  - △+A
   - '{'
   - (
   - '['
@@ -70,18 +70,18 @@ layers:
   - )
   - '}'
   - \
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-return$$
   - $$mdi:apple-keyboard-shift$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - △+Z
+  - △+X
+  - △+C
+  - △+V
+  - △+B
   - _
-  - ''
-  - ''
-  - ''
-  - ''
+  - △+M
+  - △+,
+  - △+.
+  - △+/
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:arrow-expand-down$$
