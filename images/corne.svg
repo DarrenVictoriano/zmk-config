@@ -72,9 +72,6 @@
 <svg id="mdi:keyboard-tab">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab" viewBox="0 0 24 24"><path d="M20,18H22V6H20M11.59,7.41L15.17,11H1V13H15.17L11.59,16.58L13,18L19,12L13,6L11.59,7.41Z" /></svg>
 </svg>
-<svg id="mdi:lightning-bolt">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-lightning-bolt" viewBox="0 0 24 24"><path d="M11 15H6L13 1V9H18L11 23V15Z" /></svg>
-</svg>
 <svg id="mdi:mouse-left-click">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse-left-click" viewBox="0 0 24 24"><path d="M13 9V1.07C16.94 1.56 20 4.92 20 9H13M6.34 20.66C4.84 19.16 4 17.12 4 15V11H20V15C20 17.12 19.16 19.16 17.66 20.66C16.16 22.16 14.12 23 12 23C9.88 23 7.84 22.16 6.34 20.66M11 9V1.07C10.3 1.16 9.63 1.33 9 1.59C6.67 2.53 4.89 4.53 4.25 7C4.09 7.64 4 8.31 4 9H11M6.34 7C6.82 5.65 7.78 4.5 9 3.81V7H6.34Z" /></svg>
 </svg>
@@ -512,7 +509,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:lightning-bolt" xlink:href="#mdi:lightning-bolt" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lightning-bolt"/>
+<text x="0" y="0" class="key tap">⚡+Q</text>
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -532,7 +529,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(532, 42)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:lightning-bolt" xlink:href="#mdi:lightning-bolt" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lightning-bolt"/>
+<text x="0" y="0" class="key tap">⚡+Y</text>
 </g>
 <g transform="translate(588, 35)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -544,11 +541,11 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(700, 35)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:lightning-bolt" xlink:href="#mdi:lightning-bolt" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lightning-bolt"/>
+<text x="0" y="0" class="key tap">⚡+O</text>
 </g>
 <g transform="translate(756, 49)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:lightning-bolt" xlink:href="#mdi:lightning-bolt" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lightning-bolt"/>
+<text x="0" y="0" class="key tap">⚡+P</text>
 </g>
 <g transform="translate(812, 49)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -560,7 +557,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(84, 105)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:lightning-bolt" xlink:href="#mdi:lightning-bolt" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lightning-bolt"/>
+<text x="0" y="0" class="key tap">⚡+A</text>
 </g>
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -596,7 +593,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(756, 105)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:lightning-bolt" xlink:href="#mdi:lightning-bolt" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lightning-bolt"/>
+<text x="0" y="0" class="key tap">⚡+;</text>
 </g>
 <g transform="translate(812, 105)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -608,7 +605,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(84, 161)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:lightning-bolt" xlink:href="#mdi:lightning-bolt" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lightning-bolt"/>
+<text x="0" y="0" class="key tap">⚡+Z</text>
 </g>
 <g transform="translate(140, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -636,15 +633,15 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(644, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:lightning-bolt" xlink:href="#mdi:lightning-bolt" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lightning-bolt"/>
+<text x="0" y="0" class="key tap">⚡+,</text>
 </g>
 <g transform="translate(700, 147)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:lightning-bolt" xlink:href="#mdi:lightning-bolt" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lightning-bolt"/>
+<text x="0" y="0" class="key tap">⚡+.</text>
 </g>
 <g transform="translate(756, 161)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:lightning-bolt" xlink:href="#mdi:lightning-bolt" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:lightning-bolt"/>
+<text x="0" y="0" class="key tap">⚡+/</text>
 </g>
 <g transform="translate(812, 161)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

@@ -5,19 +5,19 @@ layers:
     '$$mdi:keyboard-space$$', '$$mdi:keyboard-space$$', '$$mdi:arrow-expand-up$$', '$$mdi:apple-keyboard-option$$']
   lower:
   - $$mdi:keyboard-esc$$
-  - $$mdi:lightning-bolt$$+Q
+  - ⚡+Q
   - '7'
   - '8'
   - '9'
   - $$mdi:chevron-up-box$$
-  - $$mdi:lightning-bolt$$+Y
+  - ⚡+Y
   - $$mdi:chevron-left-box$$
   - $$mdi:chevron-right-box$$
-  - $$mdi:lightning-bolt$$+O
-  - $$mdi:lightning-bolt$$+P
+  - ⚡+O
+  - ⚡+P
   - $$mdi:delete$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:lightning-bolt$$+A
+  - ⚡+A
   - '4'
   - '5'
   - '6'
@@ -26,19 +26,19 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:lightning-bolt$$+;
+  - ⚡+;
   - ENTER
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:lightning-bolt$$+Z
+  - ⚡+Z
   - '1'
   - '2'
   - '3'
   - '0'
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - $$mdi:lightning-bolt$$+,
-  - $$mdi:lightning-bolt$$+.
-  - $$mdi:lightning-bolt$$+/
+  - ⚡+,
+  - ⚡+.
+  - ⚡+/
   - ⌘⇧
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:arrow-expand-down$$', type: held}
