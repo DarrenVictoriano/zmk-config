@@ -29,10 +29,10 @@
 
         lower_layer {
             bindings = <
-&kp ESC    &none                 &kp N7  &kp N8    &kp N9  &kp PAGE_UP      &kp LG(LS(J))      &kp LC(LS(TAB))  &kp LC(TAB)  &none      &none                 &kp DELETE
-&kp LCTRL  &none                 &kp N4  &kp N5    &kp N6  &kp PAGE_DOWN    &kp LEFT           &kp DOWN         &kp UP       &kp RIGHT  &none                 &kp RCTRL
-&kp LSHFT  &kp LC(LS(LA(LGUI)))  &kp N1  &kp N2    &kp N3  &kp N0           &kp C_VOL_DN       &kp C_VOL_UP     &none        &none      &kp LC(LS(LA(LGUI)))  &kp LG(LSHFT)
-                                         &kp LGUI  &mo 1   &kp SPACE        &kp LG(LA(SPACE))  &mo 2            &kp RALT
+&kp ESC    &kp LS(LA(LC(LG(Q))))  &kp N7  &kp N8    &kp N9  &kp PAGE_UP      &kp LS(LA(LC(LG(Y))))  &kp LC(LS(TAB))  &kp LC(TAB)                &kp LS(LA(LC(LG(O))))       &kp LS(LA(LC(LG(P))))          &kp DELETE
+&kp LCTRL  &kp LS(LA(LC(LG(A))))  &kp N4  &kp N5    &kp N6  &kp PAGE_DOWN    &kp LEFT               &kp DOWN         &kp UP                     &kp RIGHT                   &kp LS(LA(LC(LG(SEMICOLON))))  &kp RCTRL
+&kp LSHFT  &kp LC(LS(LA(LG(Z))))  &kp N1  &kp N2    &kp N3  &kp N0           &kp C_VOL_DN           &kp C_VOL_UP     &kp LS(LA(LC(LG(COMMA))))  &kp LS(LA(LC(LG(PERIOD))))  &kp LC(LS(LA(LG(SLASH))))      &kp LG(LSHFT)
+                                          &kp LGUI  &mo 1   &kp SPACE        &kp LG(LA(SPACE))      &mo 2            &kp RALT
             >;
         };
 
