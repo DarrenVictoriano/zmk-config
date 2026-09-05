@@ -1,23 +1,23 @@
 layout: {zmk_keyboard: corne}
 layers:
   default: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, RIGHT CONTROL,
-    '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', lower, '$$mdi:keyboard-space$$',
-    '$$mdi:keyboard-space$$', raise, '$$mdi:apple-keyboard-option$$']
+    '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', '$$mdi:arrow-expand-down$$',
+    '$$mdi:keyboard-space$$', '$$mdi:keyboard-space$$', '$$mdi:arrow-expand-up$$', '$$mdi:apple-keyboard-option$$']
   lower:
   - $$mdi:keyboard-esc$$
-  - Hyper+Q
+  - $$mdi:lightning-bolt$$+Q
   - '7'
   - '8'
   - '9'
   - $$mdi:chevron-up-box$$
-  - Hyper+Y
+  - $$mdi:lightning-bolt$$+Y
   - $$mdi:chevron-left-box$$
   - $$mdi:chevron-right-box$$
-  - Hyper+O
-  - Hyper+P
+  - $$mdi:lightning-bolt$$+O
+  - $$mdi:lightning-bolt$$+P
   - $$mdi:delete$$
   - $$mdi:apple-keyboard-control$$
-  - Hyper+A
+  - $$mdi:lightning-bolt$$+A
   - '4'
   - '5'
   - '6'
@@ -26,25 +26,25 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - Hyper+;
+  - $$mdi:lightning-bolt$$+;
   - ENTER
   - $$mdi:apple-keyboard-shift$$
-  - Hyper+Z
+  - $$mdi:lightning-bolt$$+Z
   - '1'
   - '2'
   - '3'
   - '0'
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - Hyper+,
-  - Hyper+.
-  - Hyper+/
+  - $$mdi:lightning-bolt$$+,
+  - $$mdi:lightning-bolt$$+.
+  - $$mdi:lightning-bolt$$+/
   - ⌘⇧
   - $$mdi:apple-keyboard-command$$
-  - {t: lower, type: held}
+  - {t: '$$mdi:arrow-expand-down$$', type: held}
   - $$mdi:keyboard-space$$
   - ⌘⌥⎵
-  - raise
+  - $$mdi:arrow-expand-up$$
   - $$mdi:apple-keyboard-option$$
   raise:
   - '`'
@@ -84,10 +84,10 @@ layers:
   - ''
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
-  - lower
+  - $$mdi:arrow-expand-down$$
   - ⌃⎵
   - $$mdi:keyboard-space$$
-  - {t: raise, type: held}
+  - {t: '$$mdi:arrow-expand-up$$', type: held}
   - $$mdi:apple-keyboard-option$$
   adjust:
   - ✦⎋
@@ -127,8 +127,8 @@ layers:
   - ''
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
-  - {t: lower, type: held}
+  - {t: '$$mdi:arrow-expand-down$$', type: held}
   - ''
   - ''
-  - {t: raise, type: held}
+  - {t: '$$mdi:arrow-expand-up$$', type: held}
   - $$mdi:apple-keyboard-option$$
