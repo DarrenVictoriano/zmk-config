@@ -367,8 +367,8 @@ parse_config:
     keycode_combiner: "{mods}+{key}"
     mod_combiner: "{mod_1}+{mod_2}"
     special_combinations:
-      left_ctrl+left_alt+left_gui+left_shift: $$mdi:lightning-bolt$$
-      left_ctrl+left_alt+left_shift: $$mdi:triangle$$
+      left_ctrl+left_alt+left_gui+left_shift: "⚡"
+      left_ctrl+left_alt+left_shift: "△"
   qmk_remove_keycode_prefix:
     - KC_
   qmk_keycode_map:
