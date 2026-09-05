@@ -497,6 +497,7 @@ parse_config:
     SPACE: $$mdi:keyboard-space$$
     BSPC: $$mdi:backspace$$
     RET: $$mdi:keyboard-return$$
+    ENTER: $$mdi:keyboard-return$$
     DEL: $$mdi:delete$$
     DELETE: $$mdi:delete$$
     INS: Insert
