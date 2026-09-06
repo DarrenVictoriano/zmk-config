@@ -7,7 +7,6 @@ on:
     paths:
       - "config/**/*.keymap"
       - "images/config_keymap-drawer.yaml"
-
 jobs:
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
