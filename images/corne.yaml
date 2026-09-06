@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   default:
-  - $$mdi:keyboard-tab$$
+  - ⎋
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - $$mdi:backspace$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-tab$$
   - A
   - S
   - D
@@ -44,7 +44,7 @@ layers:
   - $$mdi:arrow-expand-up$$
   - $$mdi:apple-keyboard-option$$
   lower:
-  - ⎋
+  - ✦⎋
   - ⚡+Q
   - '7'
   - '8'
@@ -99,7 +99,7 @@ layers:
   - +
   - '='
   - '-'
-  - $$mdi:apple-keyboard-control$$
+  - ''
   - ▾+A
   - '{'
   - (
@@ -110,8 +110,8 @@ layers:
   - )
   - '}'
   - \
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - ''
+  - ''
   - ▾+Z
   - ▾+X
   - ▾+C
@@ -122,7 +122,7 @@ layers:
   - ▾+,
   - ▾+.
   - ▾+/
-  - $$mdi:apple-keyboard-shift$$
+  - ''
   - $$mdi:apple-keyboard-command$$
   - $$mdi:arrow-expand-down$$
   - ⌃⎵
@@ -130,8 +130,8 @@ layers:
   - {t: '$$mdi:arrow-expand-up$$', type: held}
   - $$mdi:apple-keyboard-option$$
   adjust:
-  - ✦⎋
-  - ''
+  - $$mdi:camera$$
+  - $$mdi:mouse-scroll-wheel$$
   - F7
   - F8
   - F9
@@ -141,8 +141,8 @@ layers:
   - $$mdi:pan-up$$
   - $$mdi:pan-right$$
   - ⌃⌥
-  - $$mdi:camera$$
-  - $$mdi:mouse-right-click$$
+  - ''
+  - ''
   - $$mdi:mouse-left-click$$
   - F4
   - F5
@@ -155,7 +155,7 @@ layers:
   - $$mdi:lightning-bolt$$
   - $$mdi:apple-keyboard-control$$
   - ''
-  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click$$
   - F1
   - F2
   - F3
