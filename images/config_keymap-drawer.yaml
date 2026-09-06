@@ -457,8 +457,8 @@ parse_config:
     # Macros
     LC(LS(LA(LGUI))): $$mdi:lightning-bolt$$ # hyper
     LS(LA(LC(LGUI))): $$mdi:lightning-bolt$$ # hyper
-    LS(LC(LALT)): $$mdi:triangle$$ # meh
-    RS(RA(RCTRL)): $$mdi:triangle$$ # meh
+    LS(LC(LALT)): $$mdi:triangle-small-down$$ # meh
+    RS(RA(RCTRL)): $$mdi:triangle-small-down$$ # meh
     LC(SPACE): "⌃⎵"
     RC(RS(TAB)): "⌃⇧⇥"
     RC(TAB): "⌃⇥"

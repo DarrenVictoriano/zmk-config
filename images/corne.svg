@@ -99,8 +99,8 @@
 <svg id="mdi:pan-up">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-pan-up" viewBox="0 0 24 24"><path d="M12,2.5L8,7H16L12,2.5M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10Z" /></svg>
 </svg>
-<svg id="mdi:triangle">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-triangle" viewBox="0 0 24 24"><path d="M1,21H23L12,2" /></svg>
+<svg id="mdi:triangle-small-down">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-triangle-small-down" viewBox="0 0 24 24"><path d="M8 9H16L12 16" /></svg>
 </svg>
 <svg id="mdi:volume-high">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
@@ -990,7 +990,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(756, 161)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:triangle" xlink:href="#mdi:triangle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:triangle"/>
+<use href="#mdi:triangle-small-down" xlink:href="#mdi:triangle-small-down" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:triangle-small-down"/>
 </g>
 <g transform="translate(812, 161)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
