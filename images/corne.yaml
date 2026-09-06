@@ -1,23 +1,63 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '$$mdi:keyboard-return$$',
-    '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', lower, '$$mdi:keyboard-space$$',
-    '$$mdi:keyboard-space$$', raise, '$$mdi:apple-keyboard-option$$']
+  default:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - $$mdi:backspace$$
+  - $$mdi:apple-keyboard-control$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - $$mdi:keyboard-return$$
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:arrow-expand-down$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:arrow-expand-up$$
+  - $$mdi:apple-keyboard-option$$
   lower:
-  - $$mdi:keyboard-esc$$
-  - ''
+  - ⎋
+  - ⚡+Q
   - '7'
   - '8'
   - '9'
   - $$mdi:chevron-up-box$$
-  - $$mdi:cog$$
+  - ⚡+Y
   - $$mdi:chevron-left-box$$
   - $$mdi:chevron-right-box$$
-  - ''
-  - ''
+  - ⚡+O
+  - ⚡+P
   - $$mdi:delete$$
   - $$mdi:apple-keyboard-control$$
-  - ''
+  - ⚡+A
   - '4'
   - '5'
   - '6'
@@ -26,25 +66,25 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - ''
-  - $$mdi:apple-keyboard-control$$
+  - ⚡+;
+  - ⌘⌥↵
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:lightning-bolt$$
+  - ⚡+Z
   - '1'
   - '2'
   - '3'
   - '0'
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - ''
-  - ''
-  - $$mdi:lightning-bolt$$
+  - ⚡+,
+  - ⚡+.
+  - ⚡+/
   - ⌘⇧
   - $$mdi:apple-keyboard-command$$
-  - {t: lower, type: held}
+  - {t: '$$mdi:arrow-expand-down$$', type: held}
   - $$mdi:keyboard-space$$
   - ⌘⌥⎵
-  - raise
+  - $$mdi:arrow-expand-up$$
   - $$mdi:apple-keyboard-option$$
   raise:
   - '`'
@@ -60,7 +100,7 @@ layers:
   - '='
   - '-'
   - $$mdi:apple-keyboard-control$$
-  - ''
+  - ▾+A
   - '{'
   - (
   - '['
@@ -72,22 +112,22 @@ layers:
   - \
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:lightning-bolt$$
-  - ''
-  - ''
-  - ''
-  - ''
+  - ▾+Z
+  - ▾+X
+  - ▾+C
+  - ▾+V
+  - ▾+B
   - _
-  - ''
-  - ''
-  - ''
-  - $$mdi:lightning-bolt$$
+  - ▾+M
+  - ▾+,
+  - ▾+.
+  - ▾+/
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
-  - lower
+  - $$mdi:arrow-expand-down$$
   - ⌃⎵
   - $$mdi:keyboard-space$$
-  - {t: raise, type: held}
+  - {t: '$$mdi:arrow-expand-up$$', type: held}
   - $$mdi:apple-keyboard-option$$
   adjust:
   - ✦⎋
@@ -100,7 +140,7 @@ layers:
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
   - $$mdi:pan-right$$
-  - ''
+  - ⌃⌥
   - $$mdi:camera$$
   - $$mdi:mouse-right-click$$
   - $$mdi:mouse-left-click$$
@@ -112,7 +152,7 @@ layers:
   - $$mdi:arrow-down-drop-circle$$
   - $$mdi:arrow-up-drop-circle$$
   - $$mdi:arrow-right-drop-circle$$
-  - ''
+  - $$mdi:lightning-bolt$$
   - $$mdi:apple-keyboard-control$$
   - ''
   - $$mdi:mouse-scroll-wheel$$
@@ -124,11 +164,11 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:lightning-bolt$$
+  - $$mdi:triangle-small-down$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
-  - {t: lower, type: held}
+  - {t: '$$mdi:arrow-expand-down$$', type: held}
   - ''
   - ''
-  - {t: raise, type: held}
+  - {t: '$$mdi:arrow-expand-up$$', type: held}
   - $$mdi:apple-keyboard-option$$
