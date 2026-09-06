@@ -463,6 +463,7 @@ parse_config:
     LG(LS(J)): $$mdi:cog$$
     LG(LSHFT): "⌘⇧"
     LG(LA(SPACE)): "⌘⌥⎵"
+    LG(LA(RET)): "⌘⌥↵"
     RC(RALT): "⌃⌥"
     RC(RSHFT): "⌃⇧"
     LC(LA(F2)): $$mdi:console-network$$
