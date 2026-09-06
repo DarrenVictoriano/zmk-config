@@ -1,8 +1,48 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '$$mdi:keyboard-return$$',
-    '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', '$$mdi:arrow-expand-down$$',
-    '$$mdi:keyboard-space$$', '$$mdi:keyboard-space$$', '$$mdi:arrow-expand-up$$', '$$mdi:apple-keyboard-option$$']
+  default:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - $$mdi:backspace$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:arrow-expand-down$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-expand-up$$
+  - $$mdi:apple-keyboard-option$$
   lower:
   - $$mdi:keyboard-esc$$
   - ⚡+Q
@@ -27,7 +67,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - ⚡+;
-  - Gui+Alt+$$mdi:keyboard-return$$
+  - ⌘⌥↵
   - $$mdi:apple-keyboard-shift$$
   - ⚡+Z
   - '1'
@@ -100,7 +140,7 @@ layers:
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
   - $$mdi:pan-right$$
-  - ''
+  - ⌃⌥
   - $$mdi:camera$$
   - $$mdi:mouse-right-click$$
   - $$mdi:mouse-left-click$$
@@ -112,7 +152,7 @@ layers:
   - $$mdi:arrow-down-drop-circle$$
   - $$mdi:arrow-up-drop-circle$$
   - $$mdi:arrow-right-drop-circle$$
-  - ''
+  - △+$$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - ''
   - $$mdi:mouse-scroll-wheel$$
@@ -124,7 +164,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Sft+AltGr+$$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:arrow-expand-down$$', type: held}

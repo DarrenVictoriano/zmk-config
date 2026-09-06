@@ -20,10 +20,10 @@
 
         default_layer {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI  &mt RCTRL RET
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                         &kp LGUI  &mo 1  &kp SPACE    &kp SPACE  &mo 2  &kp RALT
+&kp TAB         &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&mt LCTRL CAPS  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI  &mt RCTRL RET
+&kp LSHFT       &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                              &kp LGUI  &mo 1  &kp SPACE    &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
@@ -47,9 +47,9 @@
 
         adjust_layer {
             bindings = <
-&kp LC(LS(ESC))  &none      &kp F7  &kp F8    &kp F9  &kp F12    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none  &kp PRINTSCREEN
-&mkp RCLK        &mkp LCLK  &kp F4  &kp F5    &kp F6  &kp F11    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none  &kp RCTRL
-&none            &mkp MCLK  &kp F1  &kp F2    &kp F3  &kp F10    &none           &none           &none         &none            &none  &kp RSHFT
+&kp LC(LS(ESC))  &none      &kp F7  &kp F8    &kp F9  &kp F12    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp RC(RALT)          &kp PRINTSCREEN
+&mkp RCLK        &mkp LCLK  &kp F4  &kp F5    &kp F6  &kp F11    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LS(LA(LC(LGUI)))  &kp RCTRL
+&none            &mkp MCLK  &kp F1  &kp F2    &kp F3  &kp F10    &none           &none           &none         &none            &kp RS(RA(RCTRL))     &kp RSHFT
                                     &kp LGUI  &mo 1   &none      &none           &mo 2           &kp RALT
             >;
         };
