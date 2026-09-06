@@ -32,7 +32,8 @@ generated using
 
 - `⚡` : Hyper (`Ctrl` + `Shift` + `Alt` + `Cmd`)
 - `▾` : Meh (`Ctrl` + `Shift` + `Alt`)
-- Space/Ctrl thumb keys: tap for Space, hold for Ctrl
+- Enter/Ctrl key: tap for Enter, hold for Right Ctrl (balanced, 250 ms tapping
+  term)
 - `⌘⌥↵` : `Cmd` + `Option` + `Enter`
 - `⌘⌥⎵` : Homerow
 - `⌘⇧` : `Cmd` + `Shift`
@@ -40,6 +41,8 @@ generated using
 - `⌃⌥` : `Ctrl` + `Option`
 - `✦⎋` : `Ctrl` + `Shift` + `Esc`
 - Camera icon: Print Screen (Linux) / `F13` (macOS)
+- Mouse wheel, left-click, and right-click icons: middle, left, and right mouse
+  buttons
 - Adjust-layer circle arrows: mouse movement
 - Adjust-layer pan arrows: scrolling
 
