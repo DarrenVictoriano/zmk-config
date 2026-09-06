@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   default:
-  - $$mdi:keyboard-tab$$
+  - ⎋
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - $$mdi:backspace$$
-  - ⎋
+  - $$mdi:keyboard-tab$$
   - A
   - S
   - D
