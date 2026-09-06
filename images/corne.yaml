@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - $$mdi:backspace$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - S
   - D
@@ -140,7 +140,7 @@ layers:
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
   - $$mdi:pan-right$$
-  - ''
+  - ⌃⌥
   - $$mdi:camera$$
   - $$mdi:mouse-right-click$$
   - $$mdi:mouse-left-click$$
@@ -152,7 +152,7 @@ layers:
   - $$mdi:arrow-down-drop-circle$$
   - $$mdi:arrow-up-drop-circle$$
   - $$mdi:arrow-right-drop-circle$$
-  - ''
+  - △+$$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - ''
   - $$mdi:mouse-scroll-wheel$$
@@ -164,7 +164,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Sft+AltGr+$$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:arrow-expand-down$$', type: held}
