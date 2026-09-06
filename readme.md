@@ -76,13 +76,14 @@ For Keyboard (Corne):
 
 ### Dongle warning
 
-Flashing both dongles does not make them interchangeable.
+Pick only one dongle either XIAO or Raytac not both. If you own both devices
+flashing both does not make the dongles interchangeable.
 
 The left and right firmware files contain no predefined dongle identity. During
 first startup, each half bonds to the specific central dongle it discovers. That
 hardware address and bond are saved in persistent settings.
 
-If you initially power all four devices together:
+After flashing the firmware if you initially power all four devices together:
 
 ```text
 XIAO powered + Raytac powered + left + right
@@ -91,7 +92,7 @@ XIAO powered + Raytac powered + left + right
 Pairing can be unpredictable. One half could even bond with a different dongle
 than the other.
 
-Use one of these arrangements:
+Use one of these arrangements after flashing:
 
 ```text
 XIAO powered + Raytac unplugged + both halves
@@ -117,7 +118,7 @@ available for either hardware model. It does not add multi-dongle or failover
 support. For two complete keyboards, however, you can use XIAO with one set of
 halves and Raytac with the other set.
 
-### XIAO Dongle
+### How to flash firmware using XIAO Dongle
 
 1. Plug in your XIAO dongle to your computer.
 2. Double-press the small button on the XIAO to enter bootloader mode.
@@ -141,7 +142,7 @@ halves and Raytac with the other set.
 15. Plug your XIAO dongle back in to your computer.
 16. Turn on both sides of your keyboard. Enjoy!
 
-### Raytac Dongle
+### How to flash firmware using Raytac Dongle
 
 The Raytac MDBT50Q-CX-40 uses its factory Nordic USB DFU bootloader instead of a
 UF2 drive. Do not erase or replace this bootloader. Install
