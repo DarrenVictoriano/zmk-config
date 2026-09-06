@@ -455,8 +455,10 @@ parse_config:
     RGUI: $$mdi:apple-keyboard-command$$
 
     # Macros
-    LC(LS(LA(LGUI))): $$mdi:lightning-bolt$$
-    LS(LC(LALT)): $$mdi:triangle$$ # Meh
+    LC(LS(LA(LGUI))): $$mdi:lightning-bolt$$ # hyper
+    LS(LA(LC(LGUI))): $$mdi:lightning-bolt$$ # hyper
+    LS(LC(LALT)): $$mdi:triangle$$ # meh
+    RS(RA(RCTRL)): $$mdi:triangle$$ # meh
     LC(SPACE): "⌃⎵"
     RC(RS(TAB)): "⌃⇧⇥"
     RC(TAB): "⌃⇥"
@@ -493,7 +495,7 @@ parse_config:
     PG_UP: $$mdi:transfer-up$$
     PG_DN: $$mdi:transfer-down$$
 
-    ESC: $$mdi:keyboard-esc$$
+    ESC: "⎋"
     TAB: $$mdi:keyboard-tab$$
     SPACE: $$mdi:keyboard-space$$
     BSPC: $$mdi:backspace$$
@@ -504,7 +506,7 @@ parse_config:
     INS: Insert
     HOME: Home
     END: End
-    CAPS: $$mdi:apple-keyboard-caps$$
+    CAPS: $$mdi:keyboard-caps$$
     PSCRN: $$mdi:camera$$
     PAUSE_BREAK: Pause Break
 
