@@ -14,6 +14,11 @@
 #define LOWER   1
 #define RAISE   2
 
+&mt {
+    tapping-term-ms = <250>;
+    flavor = "balanced";
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
