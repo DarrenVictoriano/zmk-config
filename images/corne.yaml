@@ -164,7 +164,7 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:triangle$$
+  - $$mdi:triangle-small-down$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:arrow-expand-down$$', type: held}
