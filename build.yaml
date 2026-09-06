@@ -19,13 +19,20 @@
 #
 ---
 include:
-  # Add custom dongle and a peripheral left corne
+  # Dongles
   - board: seeeduino_xiao_ble
     shield: corne_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
     artifact-name: xiao_dongle
 
+  - board: nrf52840dongle_nrf52840
+    shield: corne_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n -DCONFIG_BOARD_ENABLE_DCDC=n -DCONFIG_BOARD_ENABLE_DCDC_HV=n
+    artifact-name: raytac_dongle
+
+  # Keyboard halves
   - board: nice_nano_v2
     shield: corne_left nice_view_adapter nice_view_gem
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
@@ -44,3 +51,8 @@ include:
   - board: seeeduino_xiao_ble
     shield: settings_reset
     artifact-name: xiao_reset_settings
+
+  - board: nrf52840dongle_nrf52840
+    shield: settings_reset
+    cmake-args: -DCONFIG_BOARD_ENABLE_DCDC=n -DCONFIG_BOARD_ENABLE_DCDC_HV=n
+    artifact-name: raytac_reset_settings
