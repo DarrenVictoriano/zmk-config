@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:arrow-expand-up$$', type: held}
   - $$mdi:apple-keyboard-option$$
   adjust:
-  - $$mdi:camera$$
+  - ✦⎋
   - $$mdi:mouse-scroll-wheel$$
   - F7
   - F8
@@ -141,7 +141,7 @@ layers:
   - $$mdi:pan-up$$
   - $$mdi:pan-right$$
   - ⌃⌥
-  - ''
+  - $$mdi:camera$$
   - ''
   - $$mdi:mouse-left-click$$
   - F4
