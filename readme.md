@@ -28,16 +28,20 @@ generated using
 
 ![keymaps](https://github.com/DarrenVictoriano/zmk-config/blob/master/images/corne.svg)
 
-**Macros**
+**Keymap Legend**
 
-- ⚡️ : hyper key (`ctrl` + `shift` + `alt` + `cmd`)
-- ⚙️ : system settings (`cmd` + `shift` + `J`)
-- 📷 : `printscreen` (linux) / `F13` (macos)
-- `⌘⌥⎵` : homerow
+- `⚡` : Hyper (`Ctrl` + `Shift` + `Alt` + `Cmd`)
+- `▾` : Meh (`Ctrl` + `Shift` + `Alt`)
+- Space/Ctrl thumb keys: tap for Space, hold for Ctrl
+- `⌘⌥↵` : `Cmd` + `Option` + `Enter`
+- `⌘⌥⎵` : Homerow
+- `⌘⇧` : `Cmd` + `Shift`
 - `⌃⎵` : tmux leader key
-- `✦⎋`: `ctrl` + `shift` + `esc`
-- adjust layer circle arrows: mouse movements
-- adjust layer pan-arrows: scroll movements
+- `⌃⌥` : `Ctrl` + `Option`
+- `✦⎋` : `Ctrl` + `Shift` + `Esc`
+- Camera icon: Print Screen (Linux) / `F13` (macOS)
+- Adjust-layer circle arrows: mouse movement
+- Adjust-layer pan arrows: scrolling
 
 > The image is generated using
 > [Cem Aksoylar's Keymap-drawer](https://github.com/caksoylar/keymap-drawer)
