@@ -99,7 +99,7 @@ layers:
   - +
   - '='
   - '-'
-  - ''
+  - $$mdi:apple-keyboard-control$$
   - ▾+A
   - '{'
   - (
@@ -110,8 +110,8 @@ layers:
   - )
   - '}'
   - \
-  - ''
-  - ''
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - ▾+Z
   - ▾+X
   - ▾+C
@@ -122,7 +122,7 @@ layers:
   - ▾+,
   - ▾+.
   - ▾+/
-  - ''
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:arrow-expand-down$$
   - ⌃⎵
@@ -142,7 +142,7 @@ layers:
   - $$mdi:pan-right$$
   - ⌃⌥
   - $$mdi:camera$$
-  - ''
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:mouse-left-click$$
   - F4
   - F5
@@ -154,7 +154,7 @@ layers:
   - $$mdi:arrow-right-drop-circle$$
   - $$mdi:lightning-bolt$$
   - $$mdi:apple-keyboard-control$$
-  - ''
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:mouse-right-click$$
   - F1
   - F2

@@ -44,8 +44,8 @@
         raise_layer {
             bindings = <
 &kp GRAVE  &kp EXCL           &kp AT             &kp POUND             &kp DOLLAR         &kp PERCENT          &kp CARET          &kp AMPS           &kp STAR               &kp PLUS                &kp EQUAL              &kp MINUS
-&none      &kp LS(LA(LC(A)))  &kp LEFT_BRACE     &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET   &kp SQT              &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE         &kp BACKSLASH          &none
-&none      &kp LS(LA(LC(Z)))  &kp LS(LA(LC(X)))  &kp LS(LA(LC(C)))     &kp LS(LA(LC(V)))  &kp LS(LA(LC(B)))    &kp UNDER          &kp LS(LA(LC(M)))  &kp LS(LA(LC(COMMA)))  &kp LS(LA(LC(PERIOD)))  &kp LS(LA(LC(SLASH)))  &none
+&kp LCTRL  &kp LS(LA(LC(A)))  &kp LEFT_BRACE     &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET   &kp SQT              &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE         &kp BACKSLASH          &kp RCTRL
+&kp LSHFT  &kp LS(LA(LC(Z)))  &kp LS(LA(LC(X)))  &kp LS(LA(LC(C)))     &kp LS(LA(LC(V)))  &kp LS(LA(LC(B)))    &kp UNDER          &kp LS(LA(LC(M)))  &kp LS(LA(LC(COMMA)))  &kp LS(LA(LC(PERIOD)))  &kp LS(LA(LC(SLASH)))  &kp RSHFT
                                                  &kp LGUI              &mo 1              &kp LC(SPACE)        &kp SPACE          &mo 2              &kp RALT
             >;
         };
@@ -53,8 +53,8 @@
         adjust_layer {
             bindings = <
 &kp LC(LS(ESC))  &mkp MCLK  &kp F7  &kp F8    &kp F9  &kp F12    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp RC(RALT)          &kp PRINTSCREEN
-&none            &mkp LCLK  &kp F4  &kp F5    &kp F6  &kp F11    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LS(LA(LC(LGUI)))  &kp RCTRL
-&none            &mkp RCLK  &kp F1  &kp F2    &kp F3  &kp F10    &none           &none           &none         &none            &kp RS(RA(RCTRL))     &kp RSHFT
+&kp LCTRL        &mkp LCLK  &kp F4  &kp F5    &kp F6  &kp F11    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LS(LA(LC(LGUI)))  &kp RCTRL
+&kp LSHFT        &mkp RCLK  &kp F1  &kp F2    &kp F3  &kp F10    &none           &none           &none         &none            &kp RS(RA(RCTRL))     &kp RSHFT
                                     &kp LGUI  &mo 1   &none      &none           &mo 2           &kp RALT
             >;
         };
