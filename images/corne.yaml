@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - $$mdi:backspace$$
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - S
   - D
@@ -44,7 +44,7 @@ layers:
   - $$mdi:arrow-expand-up$$
   - $$mdi:apple-keyboard-option$$
   lower:
-  - $$mdi:keyboard-esc$$
+  - ⎋
   - ⚡+Q
   - '7'
   - '8'
@@ -152,7 +152,7 @@ layers:
   - $$mdi:arrow-down-drop-circle$$
   - $$mdi:arrow-up-drop-circle$$
   - $$mdi:arrow-right-drop-circle$$
-  - △+$$mdi:apple-keyboard-command$$
+  - $$mdi:lightning-bolt$$
   - $$mdi:apple-keyboard-control$$
   - ''
   - $$mdi:mouse-scroll-wheel$$
@@ -164,7 +164,7 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+AltGr+$$mdi:apple-keyboard-control$$
+  - $$mdi:triangle$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:arrow-expand-down$$', type: held}
