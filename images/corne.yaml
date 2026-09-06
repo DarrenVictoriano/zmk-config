@@ -100,7 +100,7 @@ layers:
   - '='
   - '-'
   - $$mdi:apple-keyboard-control$$
-  - △+A
+  - ▾+A
   - '{'
   - (
   - '['
@@ -112,16 +112,16 @@ layers:
   - \
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
-  - △+Z
-  - △+X
-  - △+C
-  - △+V
-  - △+B
+  - ▾+Z
+  - ▾+X
+  - ▾+C
+  - ▾+V
+  - ▾+B
   - _
-  - △+M
-  - △+,
-  - △+.
-  - △+/
+  - ▾+M
+  - ▾+,
+  - ▾+.
+  - ▾+/
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:arrow-expand-down$$
