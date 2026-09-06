@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '$$mdi:apple-keyboard-control$$',
+  default: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '$$mdi:keyboard-return$$',
     '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', '$$mdi:arrow-expand-down$$',
     '$$mdi:keyboard-space$$', '$$mdi:keyboard-space$$', '$$mdi:arrow-expand-up$$', '$$mdi:apple-keyboard-option$$']
   lower:
@@ -27,7 +27,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - ⚡+;
-  - $$mdi:keyboard-return$$
+  - Gui+Alt+$$mdi:keyboard-return$$
   - $$mdi:apple-keyboard-shift$$
   - ⚡+Z
   - '1'
@@ -70,7 +70,7 @@ layers:
   - )
   - '}'
   - \
-  - $$mdi:keyboard-return$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - △+Z
   - △+X
