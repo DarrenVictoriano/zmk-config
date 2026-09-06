@@ -1,10 +1,16 @@
 name: Build ZMK firmware
+run-name: Build ZMK firmware
 on:
   workflow_dispatch:
   push:
     branches:
       - master
-
+    paths:
+      - "config/**"
+      - "boards/**"
+      - "zephyr/**"
+      - "build.yaml"
+      - ".github/workflows/build.yml"
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
